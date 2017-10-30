@@ -14,6 +14,7 @@ public class Bola extends Model implements Runnable, BeatModelInterface {
 	Thread thread;
 	Clip sonido;
 	int speed;
+	int a,b,c;
 	ArrayList<BeatObserver> beatObservers = new ArrayList<BeatObserver>();
 	ArrayList<BPMObserver> bpmObservers = new ArrayList<BPMObserver>();
 
@@ -80,7 +81,8 @@ public class Bola extends Model implements Runnable, BeatModelInterface {
 
 	@Override
 	public void off() {
-		speed =0;
+		speed = 0;
+		speed = 0;
 	}
 
 	@Override
